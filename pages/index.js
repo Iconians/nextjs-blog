@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Layout, { siteTitle } from "../Componets/layout";
+import Layout, { siteTitle } from "../componets/layout";
 import utilStyles from "../styles/utils.module.css";
 import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
-import Date from "../Componets/date";
+import Date from "../componets/date";
 // import Date from '../components/date';
 
 export async function getStaticProps() {
